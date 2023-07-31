@@ -1,0 +1,25 @@
+.cabecalho{
+    background-color: var(--cor-do-cabecalho);
+}
+.container{
+    display flex;
+    align-items:center;
+}
+.container_imagem, .container_frase{
+    padding: 1em;
+
+.container_titulo< .container_frase
+    padding: 1em;
+}
+@media screen and (min-width:820px){
+    .container_titulo{
+        display: block;
+        font-weight:400;
+    }
+}
+@media creen and (min-width: 820px){
+    .container_frase{
+        display:block;
+        margin:auto;
+    }
+}
